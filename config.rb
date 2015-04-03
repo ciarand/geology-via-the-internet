@@ -1,5 +1,13 @@
+activate :deploy do |deploy|
+    deploy.method = :git
+    deploy.build_before = true
+end
+
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
+
+# pretty URLs
+activate :directory_indexes
 
 # Reload the browser automatically whenever files change
 configure :development do
