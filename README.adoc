@@ -7,6 +7,8 @@ ____
 A tiny little Geology website.
 ____
 
+*Super, super, super alpha.*
+
 License
 -------
 ISC, see the LICENSE file.
