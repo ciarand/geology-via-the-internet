@@ -1,0 +1,12 @@
+Geology via the Internet
+========================
+Ciaran Downey <ciarand@csu.fullerton.edu>
+
+[quote]
+____
+A tiny little Geology website.
+____
+
+License
+-------
+ISC, see the LICENSE file.
