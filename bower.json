@@ -1,0 +1,18 @@
+{
+  "name": "geology",
+  "version": "0.0.0",
+  "authors": [
+    "Ciaran Downey <me@ciarand.me>"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "primer-css": "~2.0.3"
+  }
+}

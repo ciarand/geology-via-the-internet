@@ -1,0 +1,6 @@
+/.bundle
+/vendor
+/build
+/.sass-cache
+/.cache
+.DS_Store
