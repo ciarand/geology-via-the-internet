@@ -1,11 +1,21 @@
 GIT
-  remote: https://github.com/heracek/middleman-asciidoc
-  revision: f3cc9c388e0f61959f87a270d8f9588ffeb4fea7
-  branch: patch-1
+  remote: https://github.com/ciarand/middleman-asciidoc
+  revision: a57ef051d86ba5ddc3a1312e23a1f3d35ca301d8
+  branch: updated-versions
   specs:
     middleman-asciidoc (1.0.0)
-      asciidoctor (~> 0.1.4)
-      middleman-core (>= 4.0.0.alpha.2, < 4.1)
+      asciidoctor (~> 1.5.2)
+      middleman-core (>= 4.0.0.alpha.0)
+
+GIT
+  remote: https://github.com/emilioforrer/middleman-deploy
+  revision: c590d005cf6e259ae829b9456de231da5ee65ec3
+  branch: development
+  specs:
+    middleman-deploy (1.0.0)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
 
 GEM
   remote: https://rubygems.org/
@@ -17,7 +27,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    asciidoctor (0.1.4)
+    asciidoctor (1.5.2)
     backports (3.6.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -88,11 +98,10 @@ GEM
       sass (>= 3.3.4)
       tilt (~> 1.4.1)
       uglifier (~> 2.6)
-    middleman-livereload (3.1.1)
-      em-websocket (>= 0.2.0)
-      middleman-core (>= 3.0.2)
-      multi_json (~> 1.0)
-      rack-livereload
+    middleman-livereload (3.4.2)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -100,12 +109,16 @@ GEM
       sprockets-sass (~> 1.3.0)
     minitest (5.5.1)
     multi_json (1.11.0)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.12.5)
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    ptools (1.3.2)
     rack (1.6.0)
     rack-livereload (0.3.15)
       rack
@@ -139,11 +152,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  asciidoctor (~> 0.1.4)
   coderay (~> 1.1.0)
   middleman (~> 4.0.0.alpha.6)
   middleman-asciidoc!
-  middleman-livereload (~> 3.1.0)
+  middleman-deploy!
+  middleman-livereload (~> 3.4.2)
   sass (~> 3.4.13)
   tzinfo-data
   wdm (~> 0.1.0)
