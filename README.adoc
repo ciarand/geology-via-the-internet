@@ -1,6 +1,7 @@
 Geology via the Internet
 ========================
 Ciaran Downey <ciarand@csu.fullerton.edu>
+:toc:
 
 [quote]
 ____
@@ -8,6 +9,26 @@ A tiny little Geology website.
 ____
 
 *Super, super, super alpha.*
+
+== Tasks
+
+[source,bash]
+----
+rake build           # Build the site
+rake default[serve]  # Run the development server
+rake deploy          # Deploy the site
+rake deps            # Grab the dependencies
+----
+
+== Technology
+
+- middleman
+- middleman-deploy
+- sass
+- asciidoctor
+- rake
+- bower
+- primer-css
 
 License
 -------

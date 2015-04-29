@@ -1,3 +1,8 @@
+desc "Grab the dependencies"
+task :deps do
+    system "bundle install"
+end
+
 desc "Deploy the site"
 task :deploy do
     system "bundle exec middleman deploy"
@@ -9,6 +14,6 @@ task :build do
 end
 
 desc "Run the development server"
-task :default, :serve do
+task :default do
     system "bundle exec middleman server"
 end
