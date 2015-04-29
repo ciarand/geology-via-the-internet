@@ -2,3 +2,5 @@
 this period (but mammals existed before).
 
 - La Brea tar pits have Cenozoic (Pleistocene) fossils
+
+image::/img/tarpits.jpg[800, 800]

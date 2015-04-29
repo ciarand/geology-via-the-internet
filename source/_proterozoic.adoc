@@ -1,7 +1,9 @@
+image:://placebacon.net/200/300[float="left"]
+
 - No predators.
 
 - Also, most of the creatures in the (Oxygenated, not as salty) Ocean are pretty passive things.
 
 - Lots of nonvertebrates.
 
-- Most popular feature: ability to face toward incoming food stream.
+- Most popular feature: ability to face toward incoming food stream (see pic).

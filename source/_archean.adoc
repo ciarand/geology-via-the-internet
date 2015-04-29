@@ -4,8 +4,10 @@ mix of gases, including methane and ammonia.
 - First life appears somewhere in this period. They mostly just hang out and
 absorb ambient (heat) energy.
 
-- The planet is still extremely volatile, with volcanoes found much more
+- The planet is still extremely volatile, with volcanoes (see pic) found much more
 commonly than today.
+
+image:://placebacon.net/400/300[float="right"]
 
 - Toward the end of this period the early life begins to evolve to take
 advantage of the ambient energy provided by the sun.
