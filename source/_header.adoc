@@ -1,6 +1,7 @@
-HEADER
-------
+== a brief history of life and the oceans
 
-- What this site is
-- What it represents
-- Photos of stock
+image:/img/omanyte.png[role="related thumb right"]
+image:/img/omanyte.png[role="related thumb right"]
+image:/img/omanyte.png[role="related thumb right"]
+
+Fossils from Japan

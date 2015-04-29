@@ -13,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "primer-css": "~2.0.3"
+    "foundation": "zurb/bower-foundation"
   }
 }

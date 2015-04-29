@@ -1,25 +1,69 @@
-<div class="columns">
-    <section class="text-section">
-        <%= partial "header" %>
-    </section>
-</div>
-<div class="columns">
-    <section class="text-section">
-        <%= partial "3500_3000" %>
-    </section>
-</div>
-<div class="columns">
-    <section class="text-section">
-        <%= partial "3000_2000" %>
-    </section>
-</div>
-<div class="columns">
-    <section class="text-section">
-        <%= partial "2000_542" %>
-    </section>
-</div>
-<div class="columns">
-    <section class="text-section">
-        <%= partial "542_today" %>
-    </section>
+<div class="container">
+    <div class="row">
+        <div class="small-12 columns">
+            <section class="text-section">
+                <%= partial "header" %>
+            </section>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="timeline">
+                <div class="timeline__eon--archean">
+                    <%# 4,000 Mya %>
+                    <h1 class="timeline__eon-label">Archean (4,000 Mya to 2,500 Mya)</h1>
+                    <%= partial "archean" %>
+                    <% for i in (2500..4000).to_a.reverse %><div class="timeline__year-tick" data-year="<%=i%>"></div>
+                    <% end %>
+                </div>
+
+                <div class="timeline__eon--proterozoic">
+                    <%# 2,500 Mya %>
+                    <h1 class="timeline__eon-label">Proterozoic (2,500 Mya to 542 Mya)</h1>
+                    <%= partial "proterozoic" %>
+                    <% for i in (542..2500).to_a.reverse %><div class="timeline__year-tick" data-year="<%=i%>"></div>
+                    <% end %>
+                </div>
+
+                <div class="timeline__eon--paleozoic">
+                    <%# 542 Mya %>
+                    <h1 class="timeline__eon-label">Paleozoic (542 Mya to 251 Mya)</h1>
+                    <%= partial "paleozoic" %>
+                    <% for i in (251..542).to_a.reverse %><div class="timeline__year-tick" data-year="<%=i%>"></div>
+                    <% end %>
+                </div>
+
+                <div class="timeline__eon--mesozoic">
+                    <%# 241 Mya %>
+                    <h1 class="timeline__eon-label">Mesozoic (251 Mya to 65.5 Mya)</h1>
+                    <%= partial "mesozoic" %>
+                    <% for i in (65..251).to_a.reverse %><div class="timeline__year-tick" data-year="<%=i%>"></div>
+                    <% end %>
+                </div>
+
+                <div class="timeline__eon--cenozoic">
+                    <%# 65.6 Mya %>
+                    <h1 class="timeline__eon-label">Cenozoic (65.5 Mya to present)</h1>
+                    <%= partial "cenozoic" %>
+                    <% for i in (0..65).to_a.reverse %><div class="timeline__year-tick" data-year="<%= i %>"></div>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="text-section">
+                <h1>Sources</h1>
+                <ul>
+                    <li>http://www.ucmp.berkeley.edu/help/timeform.php</li>
+                    <li>http://en.wikipedia.org/wiki/File:Phanerozoic_Climate_Change.png</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>

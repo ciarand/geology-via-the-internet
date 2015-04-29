@@ -1,5 +1,5 @@
 // Example: All of Primer
-@import "primer-css/scss/primer";
+@import "foundation/scss/foundation";
 
 // https://github.com/mrmrs/colors
 $aqua:     #7FDBFF;
@@ -20,8 +20,11 @@ $silver:   #ddd;
 $gray:     #aaa;
 $black:    #111;
 
+$bg: rgba(255, 255, 255, 0.9);
+
 body {
     background-image: image-url("/img/bg.png");
+    font-size: 18px;
 }
 
 .text-section {
@@ -29,10 +32,20 @@ body {
 
     width: 100%;
 
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: $bg;
 
     ul, ol {
         margin-left: 2em;
     }
 }
 
+.timeline__year-tick {
+	// height: 3px;
+	display: block;
+	width: 100%;
+}
+
+.timeline {
+    background-color: $bg;
+	padding: 10px;
+}
